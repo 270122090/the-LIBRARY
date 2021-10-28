@@ -16,8 +16,9 @@ public:
     explicit librarian(QWidget *parent = nullptr);
     ~librarian();
 
-private slots:
-    void addbook();
+    void add_book();
+
+
 
 private:
     Ui::librarian *ui;

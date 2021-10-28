@@ -1,5 +1,6 @@
 #include "librarian.h"
 #include "ui_librarian.h"
+#include "addbook.h"
 
 librarian::librarian(QWidget *parent) :
     QDialog(parent),
@@ -7,7 +8,7 @@ librarian::librarian(QWidget *parent) :
 {
     ui->setupUi(this);
     connect(ui->btnAddBook, &QPushButton::clicked,
-            this, &librarian::addbook);
+            this, &librarian::add_book);
 }
 
 librarian::~librarian()
@@ -16,8 +17,14 @@ librarian::~librarian()
 
 }
 
-void librarian::addbook()
+void librarian::add_book()
 {
-
+    //hide();
+    addbook addabook;
+    addabook.setModal(true);
+    addabook.exec();
 }
+
+
+
 
