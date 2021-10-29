@@ -30,7 +30,7 @@ private:
     librarian *adminpage;
 
     // vectors
-    QVector<books*> bookslist;
+
     QVector<members*> memberslist;
 
 };

@@ -16,8 +16,15 @@ public:
     explicit addbook(QWidget *parent = nullptr);
     ~addbook();
 
+    void loadbook();
+    void readbook();
+    void pushbooks();
+
+private slots:
+
 private:
     Ui::addbook *ui;
+    QVector<addbook*> booklist;
 
 
 };
