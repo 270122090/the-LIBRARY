@@ -11,12 +11,12 @@ private:
     QString dewey;
     QString status;
     QString bookimageFilePath;
-    int uniqueid;
+    QString uniqueid;
     int qty;
 
 
 public:
-    books(QString t, QString a, QString d, QString s, int id, QString image = "none.png");
+    books(QString t, QString a, QString d, QString s, QString id, QString image = "none.png");
 
     void settitle(QString t);
     QString gettitle() const;
@@ -33,8 +33,8 @@ public:
     void setimage(QString image);
     QString getimage() const;
 
-    void setid (int id);
-    int getid() const;
+    void setid (QString id);
+    QString getid() const;
 
 
 };

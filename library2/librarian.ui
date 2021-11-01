@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="LibrarianPageHeader">
    <property name="geometry">
     <rect>
      <x>310</x>
@@ -26,76 +26,11 @@
     <string>LIBRARIAN PAGE</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnAddBook">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>150</y>
-     <width>80</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>ADD</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_3">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>210</y>
-     <width>80</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>UPDATE</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_4">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>270</y>
-     <width>80</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>REMOVE</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>110</y>
-     <width>47</width>
-     <height>14</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>BOOKS</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>330</y>
-     <width>80</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>SEARCH</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="pushButton_8">
    <property name="geometry">
     <rect>
      <x>500</x>
-     <y>150</y>
+     <y>90</y>
      <width>80</width>
      <height>51</height>
     </rect>
@@ -108,7 +43,7 @@
    <property name="geometry">
     <rect>
      <x>500</x>
-     <y>210</y>
+     <y>150</y>
      <width>80</width>
      <height>51</height>
     </rect>
@@ -121,13 +56,91 @@
    <property name="geometry">
     <rect>
      <x>500</x>
-     <y>110</y>
+     <y>70</y>
      <width>51</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
     <string>MEMBERS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BOOKS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnAddBook">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>80</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADD</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>260</y>
+     <width>80</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SEARCH</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>140</y>
+     <width>80</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ISSUE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>80</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UPDATE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>320</y>
+     <width>80</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>REMOVE</string>
    </property>
   </widget>
  </widget>

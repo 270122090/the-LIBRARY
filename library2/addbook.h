@@ -2,6 +2,7 @@
 #define ADDBOOK_H
 
 #include <QDialog>
+#include<books.h>
 
 
 namespace Ui {
@@ -16,15 +17,19 @@ public:
     explicit addbook(QWidget *parent = nullptr);
     ~addbook();
 
-    void loadbook();
-    void readbook();
-    void pushbooks();
 
 private slots:
 
+    void savebook();
+
+    void btnexitaddbook();
+    void loadbookimage();
+
 private:
     Ui::addbook *ui;
-    QVector<addbook*> booklist;
+
+    books ** newbook;
+    QString filepath;
 
 
 };

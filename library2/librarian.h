@@ -3,6 +3,8 @@
 
 #include <QDialog>
 #include "addbook.h"
+#include "books.h"
+//#include "members.h"
 
 namespace Ui {
 class librarian;
@@ -16,13 +18,16 @@ public:
     explicit librarian(QWidget *parent = nullptr);
     ~librarian();
 
-    void add_book();
 
+
+private slots:
+    void on_btnAddBook_clicked();
 
 
 private:
     Ui::librarian *ui;
-
+    QVector<books*> booklist;
+    //QVector<members*> memberslist;
 
 };
 

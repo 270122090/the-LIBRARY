@@ -1,7 +1,7 @@
 #include "books.h"
 
 
-books::books(QString t, QString a, QString d, QString s, int id, QString image)
+books::books(QString t, QString a, QString d, QString s, QString id, QString image)
 {
     title = t;
     author = a;
@@ -63,12 +63,12 @@ QString books::getimage() const
     return bookimageFilePath;
 }
 
-void books::setid (int id)
+void books::setid (QString id)
 {
     uniqueid = id;
 }
 
-int books::getid() const
+QString books::getid() const
 {
     return uniqueid;
 }
