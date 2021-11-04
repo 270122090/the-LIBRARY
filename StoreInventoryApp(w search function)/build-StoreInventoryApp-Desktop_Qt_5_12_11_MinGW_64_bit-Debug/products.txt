@@ -1,0 +1,2 @@
+Throne of Glass,2,./images/Throne of Glass.png
+The Martian,5,./images/The Martian.jpg
